@@ -5,7 +5,6 @@ import { Download, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ProfilePhoto from "./ProfilePhoto";
 
-const profileImg = "/.dyad/media/089fd7b533d29d489e824726b96117f43726bcde656a3e5492388cc7e07e46fc.jpg";
 const resumeUrl = "/.dyad/media/183aa60e4d9095442086f1c6fc300713f6c921e9df8a982c074792fc1e718701.pdf";
 
 const Hero = () => {
@@ -54,7 +53,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <ProfilePhoto src={profileImg} alt="Elias Faqiri professional profile" />
+          <ProfilePhoto />
         </motion.div>
       </div>
     </section>
