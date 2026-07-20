@@ -16,7 +16,7 @@ const sizeMap = {
   lg: "w-80 h-80 md:w-96 md:h-96",
 };
 
-const ProfilePhoto = ({ src, alt = "Profile photo", className, imgClassName, size = "lg" }: ProfilePhotoProps) => {
+const ProfilePhoto = ({ src, alt = "/imge/profile.jpg", className, imgClassName, size = "lg" }: ProfilePhotoProps) => {
   return (
     <div className={cn("relative flex justify-center", className)}>
       <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full blur-2xl opacity-30" />
