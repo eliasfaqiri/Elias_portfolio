@@ -89,9 +89,9 @@ Visit the live portfolio:
 ## 🤝 Connect With Me
 
 * Portfolio: https://elias-portfolio-beta.vercel.app/
-* GitHub: https://github.com/your-username
-* LinkedIn: https://linkedin.com/in/your-profile
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* GitHub: [https://github.com/your-username](https://github.com/repos?q=owner%3A%40me)
+* LinkedIn:[ https://linkedin.com/in/your-profile](https://www.linkedin.com/in/elias-faqiri-23529041b/)
+* Email: elyasfaqery001@gmail.com
 
 ## ⭐ Support
 
