@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download, Mail } from "lucide-react";
+import { Download, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const profileImg = "/.dyad/media/089fd7b533d29d489e824726b96117f43726bcde656a3e5492388cc7e07e46fc.jpg";
@@ -22,9 +22,9 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent mb-4">
             Elias Faqiri
           </h1>
-          <h2 className="text-xl md:text-2xl text-gray-300 mb-6">Full Stack Developer</h2>
+          <h2 className="text-xl md:text-2xl text-gray-300 mb-6">IT Support</h2>
           <p className="text-gray-400 max-w-md mx-auto md:mx-0 mb-8 leading-relaxed">
-            I build modern, performant web applications with clean code and thoughtful design. Passionate about crafting seamless user experiences.
+            Experienced administration and logistics professional currently upskilling in IT, Cloud (MS Azure/365) and AI to connect administrative processes with modern IT infrastructure. Goal-oriented, team-minded and highly motivated.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a href={resumeUrl} download>
@@ -36,6 +36,14 @@ const Hero = () => {
               <Button variant="outline" className="rounded-full border-indigo-400/40 text-indigo-300 hover:bg-indigo-500/10">
                 <Mail className="mr-2" size={18} /> Contact Me
               </Button>
+            </a>
+          </div>
+          <div className="mt-6 flex flex-col sm:flex-row gap-3 text-sm text-gray-400 justify-center md:justify-start">
+            <a href="tel:+4917644472861" className="flex items-center gap-2 hover:text-indigo-300 transition">
+              <Phone size={16} /> +49 176 44472861
+            </a>
+            <a href="mailto:elyasfaqery001@gmail.com" className="flex items-center gap-2 hover:text-indigo-300 transition">
+              <Mail size={16} /> elyasfaqery001@gmail.com
             </a>
           </div>
         </motion.div>

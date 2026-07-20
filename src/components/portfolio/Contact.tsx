@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 px-4">
-      <div className="container mx-auto max-w-2xl">
+      <div className="container mx-auto max-w-3xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -29,6 +29,16 @@ const Contact = () => {
           <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
             Contact Me
           </h2>
+          <div className="grid md:grid-cols-2 gap-6 mb-8 text-sm text-gray-300">
+            <div className="space-y-2">
+              <p><span className="text-indigo-300">Email:</span> elyasfaqery001@gmail.com</p>
+              <p><span className="text-indigo-300">Phone:</span> +49 176 44472861</p>
+            </div>
+            <div className="space-y-2">
+              <p><span className="text-indigo-300">Address:</span> Am Hinterdeich 12, Stade 21680, Deutschland</p>
+              <p><span className="text-indigo-300">References:</span> DCI, DHL Stade</p>
+            </div>
+          </div>
           <form onSubmit={handleSubmit} className="space-y-4">
             <Input
               placeholder="Your Name"

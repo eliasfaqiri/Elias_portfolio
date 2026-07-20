@@ -17,23 +17,30 @@ const About = () => {
             About Me
           </h2>
           <p className="text-gray-300 leading-relaxed mb-8 text-center md:text-left">
-            I'm a dedicated Full Stack Developer with experience building end-to-end web applications. I enjoy solving complex problems and turning ideas into polished, accessible products. My background spans frontend craftsmanship and backend architecture.
+            Experienced administration and logistics professional with solid knowledge in management, organization and procurement. Currently in further training in IT, Cloud (MS Azure/365) and AI to combine administrative processes with modern IT infrastructure. Goal-oriented, team-minded and highly motivated to contribute my skills successfully to a German company.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold text-indigo-300 mb-3">Experience</h3>
+              <h3 className="text-xl font-semibold text-indigo-300 mb-3">Key Knowledge</h3>
               <ul className="text-gray-400 space-y-2">
-                <li>• Full Stack Developer — Freelance & Projects</li>
-                <li>• Built REST APIs and React frontends</li>
-                <li>• Deployed apps with Docker & CI</li>
+                <li>• Office Organization & Administration</li>
+                <li>• Microsoft 365 & Office</li>
+                <li>• IT-Support & Cloud (MS Azure)</li>
+                <li>• Windows Server & Active Directory</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-indigo-300 mb-3">Technologies I Use</h3>
+              <h3 className="text-xl font-semibold text-indigo-300 mb-3">Languages</h3>
               <ul className="text-gray-400 space-y-2">
-                <li>• React, Next.js, TypeScript</li>
-                <li>• Node.js, Express, MongoDB, PostgreSQL</li>
-                <li>• Tailwind CSS, Docker, Git</li>
+                <li>• English: C1</li>
+                <li>• Deutsch: B1</li>
+                <li>• Persisch: Muttersprache</li>
+              </ul>
+              <h3 className="text-xl font-semibold text-indigo-300 mt-4 mb-3">Interests</h3>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Reading & Further Education</li>
+                <li>• Sport & Fitness</li>
+                <li>• Music & Writing</li>
               </ul>
             </div>
           </div>
