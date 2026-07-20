@@ -57,7 +57,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full blur-2xl opacity-30" />
             <img
-              src=
+              src="/imge/profile.jpg"
               alt="Elias Faqiri professional profile"
               className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white/10 shadow-2xl"
             />
