@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Download, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ProfilePhoto from "./ProfilePhoto";
 
 const profileImg = "/.dyad/media/089fd7b533d29d489e824726b96117f43726bcde656a3e5492388cc7e07e46fc.jpg";
 const resumeUrl = "/.dyad/media/183aa60e4d9095442086f1c6fc300713f6c921e9df8a982c074792fc1e718701.pdf";
@@ -52,16 +53,8 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex justify-center"
         >
-          <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full blur-2xl opacity-30" />
-            <img
-              src="/imge/profile.jpg"
-              alt="Elias Faqiri professional profile"
-              className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white/10 shadow-2xl"
-            />
-          </div>
+          <ProfilePhoto src={profileImg} alt="Elias Faqiri professional profile" />
         </motion.div>
       </div>
     </section>
